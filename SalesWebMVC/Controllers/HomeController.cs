@@ -24,7 +24,7 @@ namespace SalesWebMVC.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
         {
             ViewData["rules"] = "UAI";
 
