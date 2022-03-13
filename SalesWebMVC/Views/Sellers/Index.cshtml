@@ -1,12 +1,16 @@
 ﻿@model IEnumerable<SalesWebMVC.Models.Seller>
 
-@*
-    ViewData["Title"] = "Sellers";
-*@
 @{
+    ViewData["Title"] = "Sellers";
 }
 
-<h1>Sellers</h1>
+
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
 
 <table class="table table-striped table-hover">
     <thead>
